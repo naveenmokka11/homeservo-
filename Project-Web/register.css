@@ -1,0 +1,39 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: url("./images/logback.jpg");
+  /* filter: blur(1px); */
+}
+.regbox{
+  border: 2px solid ;
+  width: fit-content;
+  padding: 50px;
+  height: 400px;
+  background-color: #f8f8f861;
+  border-radius: 20px;
+  /* filter: blur(0px); */
+}
+.tab tr{
+ /* background-color: aqua;  */
+}
+label{
+  font-size: 20px;
+  /* margin-top: 20px; */
+}
+input{
+  height: 35px;
+  width: 300px;
+  margin-top: 20px;
+}
+p{
+  margin-top: 20px;
+}
